@@ -18,7 +18,7 @@ const authentication = (req, res, next) => {
         })
     } else {
         
-        res.send({"message":"Please Login (not a valid token)"})
+        res.send({"message":"please Login (not a valid token)"})
     }
 
 }
